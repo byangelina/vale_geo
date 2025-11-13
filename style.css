@@ -336,12 +336,17 @@ body {
 
 /* BENEFICIOS */
 .benefits-grid .benefit {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), transparent);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.052), transparent);
   padding: 18px;
   border-radius: 10px;
   text-align: center;
-  border: 1px solid rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(0, 0, 0, 0.12);
 }
+
+.benefits-grid .benefit p {
+    padding: 12px;
+}
+
 
 .badge {
   width: 64px;
@@ -350,11 +355,10 @@ body {
   display: inline-grid;
   place-items: center;
   margin: 0 auto 8px;
-  background: linear-gradient(180deg, var(--accent-yellow), var(--accent-orange));
-  color: #071017;
   font-weight: 800;
-  font-size: 24px;
+  font-size: 35px;
 }
+
 
 /* APP SECTION */
 .app-section {
@@ -1018,3 +1022,4 @@ body {
     font-size: 13px;
   }
 }
+
