@@ -1,0 +1,308 @@
+
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>GeoStab — Alerta Temprana de Taludes</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <div class="brand">
+                <h1>GeoStab</h1>
+                <p class="subtitle">Alerta temprana de taludes</p>
+            </div>
+            <div class="hero-cta">
+                <p class="hero-desc">Monitoreo inteligente para anticipar y prevenir deslizamientos</p>
+                <a class="btn primary" href="#guia">Ver guía</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Qué hace GeoStab -->
+        <section class="section dark section-features" id="features">
+            <div class="container">
+                <h2 class="section-title">Qué hace GeoStab</h2>
+                <p class="muted">GeoStab es una calculadora geotécnica móvil que analiza el riesgo de derrumbes en taludes de roca.</p>
+
+                <div class="infinite-gallery" style="--count:5;">
+                    <div class="strip">
+                        <div class="img-container">
+                            <img src="https://images.unsplash.com/photo-1577563908411-5077b6dc7624?w=400&q=80" alt="ejemplo 1">
+                            <p class="img-text">Alertas de seguridad en zonas de peligro</p>
+                        </div>
+
+                        <div class="img-container">
+                            <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=400&q=80" alt="ejemplo 2">
+                            <p class="img-text">Superficies de construcción</p>
+                        </div>
+
+                        <div class="img-container">
+                            <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=400&q=80" alt="ejemplo 3">
+                            <p class="img-text">Modelamiento con vectores 3D</p>
+                        </div>
+
+                        <div class="img-container">
+                            <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=400&q=80" alt="ejemplo 4">
+                            <p class="img-text">Indicador de zonas segurar</p>
+                        </div>
+
+                        <div class="img-container">
+                            <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=400&q=80" alt="ejemplo 5">
+                            <p class="img-text">Muestra de taludes</p>
+                        </div>
+
+                        <!-- duplicado para loop suave -->
+                        <div class="img-container">
+                            <img src="https://images.unsplash.com/photo-1577563908411-5077b6dc7624?w=400&q=80" alt="ejemplo 1">
+                            <p class="img-text">Alertas de seguridad en zonas de peligro</p>
+                        </div>
+
+                        <div class="img-container">
+                            <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=400&q=80" alt="ejemplo 2">
+                            <p class="img-text">Superficies de construcción</p>
+                        </div>
+
+                        <div class="img-container">
+                            <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=400&q=80" alt="ejemplo 3">
+                            <p class="img-text">Modelamiento con vectores 3D</p>
+                        </div>
+
+                        <div class="img-container">
+                            <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=400&q=80" alt="ejemplo 4">
+                            <p class="img-text">Indicador de zonas segurar</p>
+                        </div>
+
+                        <div class="img-container">
+                            <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=400&q=80" alt="ejemplo 5">
+                            <p class="img-text">Muestra de taludes</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Guía de uso -->
+        <section class="section light" id="guia">
+            <div class="container">
+                <h2 class="section-title center">Guía de uso GeoStab Web</h2>
+                <p class="muted center">Pasos rápidos para comenzar a usar la plataforma.</p>
+
+                <div class="grid-4 icons-grid">
+                    <div class="icon-card">
+                        <div class="icon">⚙️</div>
+                        <h3>Configurar proyecto</h3>
+                        <p>Define parámetros de monitoreo, sensores y alertas.</p>
+                    </div>
+                    <div class="icon-card">
+                        <div class="icon">📡</div>
+                        <h3>Conectar sensores</h3>
+                        <p>Sincroniza datos en tiempo real con la nube.</p>
+                    </div>
+                    <div class="icon-card">
+                        <div class="icon">🧭</div>
+                        <h3>Analizar</h3>
+                        <p>Modelos y simulaciones para evaluar riesgo.</p>
+                    </div>
+                    <div class="icon-card">
+                        <div class="icon">📊</div>
+                        <h3>Reportar</h3>
+                        <p>Genera informes y notificaciones automáticas.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!-- App Section -->
+    <section class="app-section">
+        <div class="app-header">
+            <h1>GeoStab versión web</h1>
+            <p>Una guía rápida para empezar a analizar la estabilidad de taludes</p>
+        </div>
+        
+        <div class="app-container">
+            <!-- Left Panel -->
+            <div>
+                <div class="app-panel project-controls">
+                    <div class="panel-header">
+                        <h2>Controles del Proyecto</h2>
+                    </div>
+                    <input type="text" placeholder="Nombre del nuevo proyecto...">
+                    <div class="button-group">
+                        <button class="btn-save">📁 Guardar</button>
+                        <button class="btn-load">📂 Cargar Proyecto</button>
+                    </div>
+                </div>
+                
+                <div class="app-panel params-section">
+                    <h2>Parámetros de Entrada</h2>
+                    
+                    <h3>Parámetros del Talud y Análisis</h3>
+                    <div class="input-grid">
+                        <div class="input-field">
+                            <label>Buzamiento del Talud (°)</label>
+                            <input type="number" value="45">
+                        </div>
+                        <div class="input-field">
+                            <label>Dirección de Buzamiento del Talud (°)</label>
+                            <input type="number" value="180">
+                        </div>
+                        <div class="input-field">
+                            <label>Ángulo de Fricción (°)</label>
+                            <input type="number" value="30">
+                        </div>
+                    </div>
+                    
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+                        <h3 style="margin: 0;">Discontinuidades</h3>
+                        <button class="btn-add">⊕ Añadir</button>
+                    </div>
+                    
+                    <div class="discontinuity-row">
+                        <span>1</span>
+                        <input type="number" placeholder="Buzamiento (°)" value="35">
+                        <input type="number" placeholder="Dir. Buzamiento (°)" value="170">
+                        <button class="btn-icon">📷</button>
+                        <button class="btn-icon" style="background-color: #C62828;">🗑</button>
+                    </div>
+                    
+                    <div class="discontinuity-row">
+                        <span>2</span>
+                        <input type="number" placeholder="Buzamiento (°)" value="60">
+                        <input type="number" placeholder="Dir. Buzamiento (°)" value="220">
+                        <button class="btn-icon">📷</button>
+                        <button class="btn-icon" style="background-color: #C62828;">🗑</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Right Panel -->
+            <div class="app-panel results-panel">
+                <h2>Resultados del Análisis</h2>
+                
+                <div class="alert-box">
+                    <div class="alert-icon">⚠</div>
+                    <div class="alert-content">
+                        <h3>Riesgo Potencial Deslizamiento</h3>
+                        <p>Detectado en zona estable y cambiar los parámetros</p>
+                    </div>
+                </div>
+                
+                <div class="analysis-item">
+                    <div class="analysis-header">Análisis de Falla Planar (1 riesgo(s)) ▼</div>
+                    <div class="analysis-content">
+                        <strong>Discontinuidad 1:</strong><br>
+                        • Dip: 35°<br>
+                        • Dip Direction: 170°<br>
+                        • Factor de Seguridad: 0.87 (Inestable)<br>
+                        <span style="color: #F44336;">⚠ Riesgo de falla planar detectado</span>
+                    </div>
+                </div>
+                
+                <div class="analysis-item">
+                    <div class="analysis-header">Análisis de Falla en Cuña (1 riesgo(s)) ▼</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Beneficios -->
+        <section class="section darker section-benefits">
+            <div class="container">
+                <h2 class="section-title center">Beneficios GeoStab</h2>
+                <div class="grid-3 benefits-grid">
+                    <div class="benefit">
+                        <div class="badge">✔</div>
+                        <h4>Prevención</h4>
+                        <p>Alertas tempranas que reducen riesgos humanos y materiales.</p>
+                    </div>
+                    <div class="benefit">
+                        <div class="badge">⚡</div>
+                        <h4>Eficiencia</h4>
+                        <p>Procesos automatizados que ahorran tiempo operativo.</p>
+                    </div>
+                    <div class="benefit">
+                        <div class="badge">🔍</div>
+                        <h4>Transparencia</h4>
+                        <p>Informes claros y trazables para toma de decisiones.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Versión móvil -->
+        <section class="section light section-mobile">
+            <div class="container center">
+                <h2 class="section-title">Prueba nuestra versión móvil</h2>
+                <p class="muted">Interfaz ligera para campo: reporta y recibe alertas desde tu celular.</p>
+                <!--<div class="phone-mock">
+                    <img src="https://via.placeholder.com/260x520?text=App+Mockup" alt="mockup movil">
+                </div>-->
+                <div class="mobile-mockup">
+                <div class="phone-frame">
+                    <div class="phone-header">GeoStab</div>
+                    
+                    <div class="phone-input">
+                        <label>Rumbo (°)</label>
+                        <div class="phone-input-field">4</div>
+                    </div>
+                    
+                    <div class="phone-input">
+                        <label>Manteo (°)</label>
+                        <div class="phone-input-field">8</div>
+                    </div>
+                    
+                    <button class="phone-btn btn-analyze">Analizar Falla Planar</button>
+                    <button class="phone-btn btn-wedge">Analizar Falla en Cuña</button>
+                    
+                    <div class="phone-checkbox">
+                        <input type="checkbox" checked>
+                        <span>Sin riesgo (Falla Planar)</span>
+                    </div>
+                </div>
+        </div>
+            </div>
+        </section>
+
+        <!-- Contacto -->
+        <section class="section dark section-contact">
+            <div class="container contact-grid">
+                <div>
+                    <h3 class="accent-cta">¿Tienes dudas?</h3>
+                    <p class="muted">Déjanos tu mensaje y te contactamos.</p>
+                </div>
+                <form class="contact-form" action="#" method="post" onsubmit="return false;">
+                    <input type="text" name="name" placeholder="Nombre" required>
+                    <input type="email" name="email" placeholder="Correo" required>
+                    <textarea name="message" rows="4" placeholder="Tu consulta..."></textarea>
+                    <div class="form-row">
+                        <button class="btn primary" type="submit">Enviar</button>
+                        <button class="btn outline" type="reset">Limpiar</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <strong>GeoStab</strong>
+                <p class="muted small">Alerta temprana de taludes</p>
+            </div>
+            <nav class="footer-links">
+                <a href="#features">Qué hace</a>
+                <a href="#guia">Guía</a>
+                <a href="#contact">Contacto</a>
+            </nav>
+            <div class="footer-copy muted small">© 2025 GeoStab — diseño de ejemplo</div>
+        </div>
+    </footer>
+</body>
+</html>
