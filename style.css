@@ -208,7 +208,7 @@ backdrop-filter: blur(1px);
   width: 90%;
   padding: 12px 16px;
   color: white;
-  font-size: 30px;
+  font-size: 18px;
   font-weight: 100;
   text-align: center;
 }
@@ -907,4 +907,5 @@ backdrop-filter: blur(1px);
   margin-top: 12px;
   color: var(--muted);
   line-height: 1.6;
+
 }
